@@ -20,7 +20,7 @@ const Home: NextPage = () => {
   }
   return (
     <div
-      className={`containerPage font-beVietNam flex flex-col gap-3 w-[880px] py-5 border border-solid border-surface-2 rounded-3xl shadow-2xl my-3 ${
+      className={`containerPage font-Uniscore flex flex-col gap-3 w-[880px] py-5 border border-solid border-surface-2 rounded-3xl shadow-2xl my-3 ${
         resolvedTheme === "dark" ? "border-[#696f75] border-opacity-30 bg-[#121212]" : ""
       }`}
     >
